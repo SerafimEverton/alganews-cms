@@ -57,12 +57,12 @@ padding: 6px 8px 4px;
 
 border: 1px solid ${p=> THEME[p.variant].bg};
 
- color: ${p=> THEME[p.variant].color};
+color: ${p=> THEME[p.variant].color};
 
 background-color: ${p=> THEME[p.variant].bg};
 
 &:hover,
-&:focus{
+&:focus {
     ${p=> THEME[p.variant].onHover};
 
 }
@@ -74,7 +74,6 @@ background-color: ${p=> THEME[p.variant].bg};
     pointer-events: none;
     border-color: transparent;
 
-}
-
+ }
 
 }`
