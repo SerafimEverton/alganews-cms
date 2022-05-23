@@ -1,10 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Wrapper = styled.div`
-display: flex;
-flex-direction: column;
-color: #274060;
-
+export const Wrapper = styled.div<{ color: string }>`
+  display: flex;
+  flex-direction: column;
+  color: #274060;
   span.Description {
     font-size: 12px;
     text-transform: lowercase;
